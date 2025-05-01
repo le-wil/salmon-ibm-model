@@ -205,7 +205,7 @@ if(__name__=='__main__'):
                     lon=lon_start, lat=lat_start, interaction_distance=max_interaction_distance)
 
     output_file = pset.ParticleFile(
-        name=f"output/MOM6salmonira_no{seed}_nfish{nfish}_kappaF{fieldset.kappaF:.2f}_kappaB{fieldset.kappaB:.2f}_kappaI{fieldset.kappaI:.2f}.zarr",
+        name=f"../output/MOM6salmonira_no{seed}_nfish{nfish}_kappaF{fieldset.kappaF:.2f}_kappaB{fieldset.kappaB:.2f}_kappaI{fieldset.kappaI:.2f}.zarr",
         outputdt=4.32e4, # output twice a day
     )
 
