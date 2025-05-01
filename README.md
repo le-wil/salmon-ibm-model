@@ -1,4 +1,4 @@
-# salmon-ibm-model
+# SalmonIRA - Model Code Repository
 
 The SalmonIRA (Salmon Inflation Reduction Act) project simulates the migration of Chinook salmon smolts along the U.S. West Coast using Lagrangian particle tracking methods with particles released into MOM6 oceanographic flow fields.
 
@@ -24,13 +24,13 @@ This repo contains only the model and files required to run simulations locally 
 Navigate to the project directory and run the model script with the required parameters:
 
 ```bash
-python MOM6salmonira.py <seed> <nfish> <kf> <kb> <ki> <pavg>
+python source/MOM6salmonira.py <seed> <nfish> <kf> <kb> <ki> <pavg>
 ```
 
 ### Example Run
 
 ```bash
-python MOM6salmonira.py 321 10 0 1 0.01 0 0.1
+python source/MOM6salmonira.py 321 10 0 1 0.01 0 0.1
 ```
 
 *Make sure your Conda environment is activated and all required flow field data files (surface u velocity, surface v velocity, (later: surface temperature), geometry) are available.*
