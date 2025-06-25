@@ -172,3 +172,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+old_models/local_output/stcc_his_osu_subset_0001.nc
