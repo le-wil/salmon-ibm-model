@@ -5,7 +5,7 @@ The SalmonIRA (Salmon Inflation Reduction Act) project simulates the migration o
 ---
 
 ##  Project Structure
-This repo contains only the model and files required to run simulations locally or on HPC. For analysis notebooks and figures, see the companion repository: SalmonIRA
+The source folder contains the current model and files required to run simulations locally or on HPC. For analysis notebooks and figures, see the companion repository: SalmonIRA
 
 ---
 
